@@ -1,38 +1,45 @@
-# CMRL-ESP-simulation
-Chennai Metro Rail (CMRL) Emergency Stop Platform (ESP) and Platform Screen Door (PSD) Training Simulation built with React, Three.js, and Python.
 # CMRL ESP Simulation
 
-A realistic 3D training simulation for the Chennai Metro Rail Limited (CMRL) Emergency Stop Platform (ESP) system. This project is designed to help trainers and operators understand metro station safety scenarios through an interactive simulation.
+A realistic 3D training simulation for the **Chennai Metro Rail Limited (CMRL)** Emergency Stop Platform (ESP) system. This project provides an interactive environment for simulating metro station operations, Platform Screen Door (PSD) functionality, emergency scenarios, and Station Controller (SCR) monitoring for training purposes.
+
+---
+
+# 👥 Contributors
+
+| Name 
+| Indu Mathi. M
+| Mahalakshmi.V
+
+---
 
 ## 🚇 Project Overview
 
-The CMRL ESP Simulation replicates underground and elevated metro station operations with Platform Screen Doors (PSD), train movement, emergency events, and Station Controller (SCR) monitoring.
+The **CMRL ESP Simulation** is an interactive training simulator designed to recreate realistic metro station operations. It simulates both **underground** and **elevated** stations, allowing trainers to demonstrate emergency situations, train movement, Platform Screen Door operations, and Station Controller (SCR) monitoring in a safe virtual environment.
 
-The simulator provides an immersive environment for training operators to respond to safety incidents while following standard operating procedures.
-
-
+The simulator focuses on providing a practical understanding of metro safety procedures and emergency response workflows followed in CMRL stations.
 
 ---
 
 ## ✨ Features
 
-- 🚆 Realistic 3D Metro Station
+- 🚆 Realistic 3D Metro Station Environment
 - 🚉 Underground & Elevated Station Modes
-- 🚪 Platform Screen Door (PSD) Simulation
-- 🚨 Emergency Stop Platform (ESP) Scenarios
-- 🚈 Train Arrival and Departure Animation
-- 👤 Passenger Boarding Simulation
+- 🚪 Platform Screen Door (PSD) Operations
+- 🚨 Emergency Stop Platform (ESP) Simulation
+- 🚈 Automatic Train Arrival & Departure
+- 👤 Passenger Boarding & Alighting Simulation
 - ⚠️ Object Stuck Detection in Platform Screen Doors
 - 🛑 Automatic Emergency Train Stop
-- 📊 Station Controller (SCR) Dashboard
-- 🎮 Interactive Controls for Trainers
-- 📹 Multiple Camera Views
+- 🖥️ Station Controller (SCR) Dashboard
+- 🎮 Interactive Trainer Controls
+- 📷 Multiple Camera Views
 - 🔄 Scenario Reset Functionality
-- 🎯 Real-time Safety Event Simulation
+- 📊 Real-Time Safety Event Monitoring
+- 🎯 Interactive Training Scenarios
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
 ### Frontend
 
@@ -40,59 +47,68 @@ The simulator provides an immersive environment for training operators to respon
 - Three.js
 - React Three Fiber
 - JavaScript
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 ### Backend
 
 - Python
 
+### Tools
+
+- Git
+- GitHub
+- Visual Studio Code
+
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 CMRL-ESP-Simulation/
 │
 ├── public/
+│
 ├── src/
+│   ├── assets/
 │   ├── components/
-│   ├── scenes/
 │   ├── models/
 │   ├── animations/
+│   ├── scenes/
 │   ├── hooks/
-│   ├── assets/
+│   ├── utils/
 │   └── App.jsx
 │
 ├── backend/
 │
 ├── package.json
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/cmrl-esp-simulation.git
 ```
 
-### Navigate to the project
+### Navigate to the Project
 
 ```bash
 cd cmrl-esp-simulation
 ```
 
-### Install dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Run the application
+### Start the Development Server
 
 ```bash
 npm run dev
@@ -103,46 +119,61 @@ npm run dev
 ## 🎮 Simulation Workflow
 
 1. Train approaches the station.
-2. Train stops at the platform.
+2. Train stops accurately at the platform.
 3. Platform Screen Doors open.
 4. Train doors open.
-5. Passenger boarding begins.
+5. Passengers board and alight.
 6. An object becomes trapped between the Platform Screen Doors.
 7. Door obstruction is detected.
-8. Emergency Stop Platform (ESP) activates.
+8. Emergency Stop Platform (ESP) is activated.
 9. Train movement is prevented.
 10. Station Controller (SCR) displays the emergency status.
 11. Operator clears the obstruction.
-12. System resets and resumes normal operation.
+12. Doors close safely.
+13. Train resumes normal operation.
 
 ---
+## 🎯 Future Enhancements
 
-## 📸 Planned Features
-
-- AI-generated emergency scenarios
-- Automatic fault detection
-- Signal system integration
+- AI-powered emergency scenarios
 - Passenger crowd simulation
-- CCTV monitoring
-- Performance analytics
-- Scenario recording and replay
-- Multi-user training support
+- CCTV Monitoring
+- Signal System Integration
+- Automatic fault diagnosis
+- Scenario recording & replay
+- Multi-user trainer mode
+- Performance analytics dashboard
 
 ---
 
-## 👥 Contributors
+## 🎯 Project Objectives
 
-- Indu Mathi.M
-- Mahalakshmi.V
+- Simulate realistic metro station operations.
+- Train operators in emergency handling procedures.
+- Demonstrate Platform Screen Door safety mechanisms.
+- Visualize Emergency Stop Platform (ESP) workflows.
+- Improve operator awareness through interactive scenarios.
 
 ---
 
-## 🎯 Purpose
+## 🤝 Contributing
 
-This project is developed as an educational and training simulator to demonstrate CMRL metro safety procedures, Platform Screen Door operations, and Emergency Stop Platform workflows in an interactive 3D environment.
+Contributions from project team members are welcome.
+
+1. Create a new branch.
+2. Make your changes.
+3. Commit your changes.
+4. Push the branch.
+5. Create a Pull Request.
 
 ---
 
 ## 📄 License
 
-This project is intended for educational purposes.
+This project is developed for **educational and training purposes**.
+
+---
+
+## ⭐ Acknowledgement
+
+This project is inspired by the operational procedures and safety practices followed by **Chennai Metro Rail Limited (CMRL)** and is intended solely for educational and simulation purposes.
