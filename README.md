@@ -7,7 +7,7 @@ A realistic 3D training simulation for the **Chennai Metro Rail Limited (CMRL)**
 # 👥 Contributors
 
 | Name 
-| Indu Mathi. M
+| Indumathi. M
 | Mahalakshmi.V
 
 ---
