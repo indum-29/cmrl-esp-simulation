@@ -22,7 +22,7 @@ The simulator focuses on providing a practical understanding of metro safety pro
 
 ## ✨ Features
 
-- 🚆 Realistic 3D Metro Station Environment
+- 🚆 Realistic 3D Movement and Scenarios Added
 - 🚉 Underground & Elevated Station Modes
 - 🚪 Platform Screen Door (PSD) Operations
 - 🚨 Emergency Stop Platform (ESP) Simulation
@@ -36,7 +36,7 @@ The simulator focuses on providing a practical understanding of metro safety pro
 - 🔄 Scenario Reset Functionality
 - 📊 Real-Time Safety Event Monitoring
 - 🎯 Interactive Training Scenarios
-
+-R
 ---
 
 ## 🛠️ Technology Stack
