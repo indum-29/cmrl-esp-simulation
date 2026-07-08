@@ -175,6 +175,7 @@ This project is developed for **educational and training purposes**.
 ---
 ## Update
 Documentation updated by Indumathi and Mahalakshmi
+Minor README improvements by Mahalakshmi
 
 ## ⭐ Acknowledgement
 
